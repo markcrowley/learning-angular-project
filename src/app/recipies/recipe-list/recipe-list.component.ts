@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Recipe} from '../recipie.mode';
+import {Recipe} from '../recipie.model';
 
 @Component({
   selector: 'app-recipe-list',
