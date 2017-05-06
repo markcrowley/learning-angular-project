@@ -12,6 +12,7 @@ export class ShoppingListComponent implements OnInit {
     new Ingredient("Potatoes", 3),
     new Ingredient("Onions", 4),
     new Ingredient("Carrot", 2),
+    new Ingredient("Salt",1)
   ];
   name: string = '';
 
