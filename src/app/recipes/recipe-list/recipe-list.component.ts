@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Recipe} from '../recipie.model';
+import {Recipe} from '../recipe.model';
 
 @Component({
   selector: 'app-recipe-list',
@@ -8,7 +8,7 @@ import {Recipe} from '../recipie.model';
 })
 export class RecipeListComponent implements OnInit {
 
-  recipise: Recipe[] = [
+  recipes: Recipe[] = [
     new Recipe('Meat option', 'Loads of stuff on a plate',
       'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Traditional.Sunday.Roast-01-cropped.jpg/300px-Traditional.Sunday.Roast-01-cropped.jpg'),
     new Recipe('Vegetarian option', 'Vegetarian',
